@@ -21,7 +21,7 @@ A role-based authentication system for healthcare applications, built with Pytho
 - **Track account creation date**
 - **Monitor last login time**
 
-## Requirements
+## ⚙️Requirements
 - **Python 3.6 or higher**
 - **No external dependencies (uses only standard library)**
 
@@ -38,7 +38,7 @@ python secure_login.py
 
 ## Usage
 
-# Registration
+# 📝Registration
 1. Select "Register" from the main menu
 2. Enter username and email
 3. Create a strong password (requirements enforced):
@@ -48,7 +48,7 @@ python secure_login.py
     - At least one number
 4. Select role (Doctor or Patient)
 
-# Login
+# 🔓Login
 1. Select "Login" from the main menu
 2. Enter your username and password
 3. Access role-specific dashboard
@@ -67,7 +67,7 @@ python secure_login.py
 - View prescriptions
 - Access test results
 
-## Project Structure
+## 📁Project Structure
 ```text
 secure-login-system/    
 ├── secure_login.py     # Main application file
@@ -93,7 +93,7 @@ secure-login-system/
 - Updates last login timestamp
 - Maintains session until explicit logout
 
-## Learning Objectives
+## 📍Learning Objectives
 This project helped me understand:
 - Cryptographic password hashing (SHA-256)
 - Salt generation and usage
@@ -102,7 +102,7 @@ This project helped me understand:
 - Secure authentication flows
 - Password strength validation
 
-## Future Enhancements
+## ✨Future Enhancements
 **Planned Improvements:**
 - Password reset functionality
 - Account lockout after failed attempts
@@ -111,7 +111,7 @@ This project helped me understand:
 - Audit logging for security events
 - Integration with other healthcare modules
 
-## Roadmap Context
+## 🛣️Roadmap Context
 **Month 2 Goals:**
 - ✅Secure Login System- Role-based access control
 - ⌛Appointment Booking System (Next)
