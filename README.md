@@ -2,25 +2,21 @@
 A role-based authentication system for healthcare applications, built with Python. Part of my [6-Month Healthcare IT learning journey](https://github.com/Softeeng/6-Month-Roadmap).
 
 # Features
-
 ## 🔐Security Features
 - **Password Hashing:** SHA-256 with unique salt for each user
 - **Password Strength Validation:** Enforces strong password requirements
 - **Secure Storage:** Passwords never stored in plain text
 - **Session Management:** Track login status and last login time
-
 ## 👤User Management
 - **User Registration:** Create new accounts with role assignment
 - **User Login/Logout:** Secure authentication system
 - **Role-Based Access Control:**
     - **Doctor:** Access to patient records, appointments, prescriptions
     - **Patient:** Access to personal medical records, appointment booking
-
 ## 📊User Profile
 - **View profile information**
 - **Track account creation date**
 - **Monitor last login time**
-
 ## ⚙️Requirements
 - **Python 3.6 or higher**
 - **No external dependencies (uses only standard library)**
@@ -37,7 +33,6 @@ python secure_login.py
 ```
 
 # Usage
-
 ## 📝Registration
 1. Select "Register" from the main menu
 2. Enter username and email
@@ -47,7 +42,6 @@ python secure_login.py
     - At least one lowercase letter
     - At least one number
 4. Select role (Doctor or Patient)
-
 ## 🔓Login
 1. Select "Login" from the main menu
 2. Enter your username and password
@@ -77,10 +71,8 @@ secure-login-system/
 ```
 
 # Security Implemenation
-
 ## Password Hashing
     # SHA-256 hashing with unique salt password + unique_salt ➡️ SHA-256 ➡️ stored_hash
-
 ## Authentication Flow
 1. User enters credentials
 2. System retrieves stored salt for username
